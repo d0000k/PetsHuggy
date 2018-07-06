@@ -26,7 +26,7 @@ gem "loofah", '2.2.2'
 
 
 gem 'sqlite3', groups: %w(test development), require: false
-gem 'pg', groups: %w(production), require: false
+gem 'pg', '~> 0.18', groups: %w(production), require: false
 gem 'rails_12factor', group: :production
 
 group :development do
