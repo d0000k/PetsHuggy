@@ -23,6 +23,8 @@ gem 'dropzonejs-rails'
 gem "figaro", "~> 1.1.0"
 
 gem "loofah", '2.2.2'
+gem 'aws-sdk', '~> 2.3'
+
 
 
 gem 'sqlite3', groups: %w(test development), require: false
